@@ -1,0 +1,143 @@
+actionid: py27
+msg: getenv
+cmdargs: [local('/home/shangzx/opnfv/parser/tosca2heat/tosca-parser/.tox/py27/bin/pip'), 'install', '-U', '-r/home/shangzx/opnfv/parser/tosca2heat/tosca-parser/requirements.txt', '-r/home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt']
+env: {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LOGNAME': 'root', 'USER': 'root', 'PATH': '/home/shangzx/opnfv/parser/tosca2heat/tosca-parser/.tox/py27/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games', 'XDG_VTNR': '7', 'HOME': '/root', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'TERM': 'xterm', 'SHELL': '/bin/bash', 'XDG_SESSION_COOKIE': '43f9cfed1c6ba45e8a320f7155fc0e76-1461435024.858462-990508212', 'LANGUAGE': 'zh_CN:zh', 'SHLVL': '1', 'PYTHONHASHSEED': '942343043', 'SUDO_USER': 'shangzx', 'USERNAME': 'root', 'SUDO_UID': '1000', 'VIRTUAL_ENV': '/home/shangzx/opnfv/parser/tosca2heat/tosca-parser/.tox/py27', 'XDG_SESSION_ID': 'c4', '_': '/usr/local/bin/tox', 'XAUTHORITY': '/home/shangzx/.Xauthority', 'SUDO_COMMAND': '/bin/su', 'SUDO_GID': '1000', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'OLDPWD': '/home/shangzx/opnfv/parser/tosca2heat', 'PWD': '/home/shangzx/opnfv/parser/tosca2heat/tosca-parser', 'COLORTERM': 'gnome-terminal', 'MAIL': '/var/mail/root', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SEAT': 'seat0'}
+
+Collecting pbr>=1.6 (from -r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/requirements.txt (line 1))
+/home/shangzx/opnfv/parser/tosca2heat/tosca-parser/.tox/py27/local/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:90: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+  Downloading pbr-1.9.1-py2.py3-none-any.whl (96kB)
+Collecting Babel>=1.3 (from -r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/requirements.txt (line 2))
+  Downloading Babel-2.3.4-py2.py3-none-any.whl (7.1MB)
+Collecting cliff!=1.16.0,!=1.17.0,>=1.15.0 (from -r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/requirements.txt (line 3))
+  Downloading cliff-2.0.0-py2-none-any.whl
+Collecting PyYAML>=3.1.0 (from -r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/requirements.txt (line 4))
+  Downloading PyYAML-3.11.zip (371kB)
+Collecting python-dateutil>=2.4.2 (from -r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/requirements.txt (line 5))
+  Downloading python_dateutil-2.5.3-py2.py3-none-any.whl (201kB)
+Collecting six>=1.9.0 (from -r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/requirements.txt (line 6))
+  Downloading six-1.10.0-py2.py3-none-any.whl
+Collecting hacking<0.11,>=0.10.0 (from -r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 1))
+  Downloading hacking-0.10.2-py2.py3-none-any.whl
+Collecting coverage>=3.6 (from -r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 2))
+  Downloading coverage-4.0.3.tar.gz (354kB)
+Collecting discover (from -r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 3))
+  Downloading discover-0.4.0.tar.gz
+Collecting fixtures>=1.3.1 (from -r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 4))
+  Downloading fixtures-2.0.0-py2.py3-none-any.whl (65kB)
+Collecting oslotest>=1.10.0 (from -r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 5))
+  Downloading oslotest-2.4.0-py2.py3-none-any.whl
+Collecting oslosphinx!=3.4.0,>=2.5.0 (from -r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 6))
+  Downloading oslosphinx-4.3.0-py2.py3-none-any.whl
+Collecting python-subunit>=0.0.18 (from -r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 7))
+  Downloading python_subunit-1.2.0-py2.py3-none-any.whl (112kB)
+Collecting sphinx!=1.2.0,!=1.3b1,<1.3,>=1.1.2 (from -r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 8))
+  Downloading Sphinx-1.2.3-py2-none-any.whl (1.9MB)
+Collecting testrepository>=0.0.18 (from -r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 9))
+  Downloading testrepository-0.0.20.tar.gz (84kB)
+Collecting testscenarios>=0.4 (from -r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 10))
+  Downloading testscenarios-0.5.0-py2.py3-none-any.whl
+Collecting testtools>=1.4.0 (from -r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 11))
+  Downloading testtools-2.1.0-py2.py3-none-any.whl (195kB)
+Collecting pytz>=0a (from Babel>=1.3->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/requirements.txt (line 2))
+  Downloading pytz-2016.4-py2.py3-none-any.whl (480kB)
+Collecting cmd2>=0.6.7 (from cliff!=1.16.0,!=1.17.0,>=1.15.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/requirements.txt (line 3))
+  Downloading cmd2-0.6.8.tar.gz
+Collecting stevedore>=1.5.0 (from cliff!=1.16.0,!=1.17.0,>=1.15.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/requirements.txt (line 3))
+  Downloading stevedore-1.12.0-py2.py3-none-any.whl
+Collecting PrettyTable<0.8,>=0.7 (from cliff!=1.16.0,!=1.17.0,>=1.15.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/requirements.txt (line 3))
+  Downloading prettytable-0.7.2.zip
+Collecting unicodecsv>=0.8.0 (from cliff!=1.16.0,!=1.17.0,>=1.15.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/requirements.txt (line 3))
+  Downloading unicodecsv-0.14.1.tar.gz
+Collecting pyparsing>=2.0.1 (from cliff!=1.16.0,!=1.17.0,>=1.15.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/requirements.txt (line 3))
+  Downloading pyparsing-2.1.1-py2.py3-none-any.whl
+Collecting mccabe==0.2.1 (from hacking<0.11,>=0.10.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 1))
+  Downloading mccabe-0.2.1.tar.gz
+Collecting pep8==1.5.7 (from hacking<0.11,>=0.10.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 1))
+  Downloading pep8-1.5.7-py2.py3-none-any.whl
+Collecting flake8==2.2.4 (from hacking<0.11,>=0.10.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 1))
+  Downloading flake8-2.2.4.tar.gz
+Collecting pyflakes==0.8.1 (from hacking<0.11,>=0.10.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 1))
+  Downloading pyflakes-0.8.1-py2.py3-none-any.whl
+Collecting debtcollector>=1.2.0 (from oslotest>=1.10.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 5))
+  Downloading debtcollector-1.3.0-py2.py3-none-any.whl
+Collecting mox3>=0.7.0 (from oslotest>=1.10.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 5))
+  Downloading mox3-0.14.0-py2.py3-none-any.whl (40kB)
+Collecting os-client-config>=1.13.1 (from oslotest>=1.10.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 5))
+  Downloading os_client_config-1.17.0-py2.py3-none-any.whl (55kB)
+Collecting mock>=1.2 (from oslotest>=1.10.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 5))
+  Downloading mock-2.0.0-py2.py3-none-any.whl (56kB)
+Collecting requests!=2.9.0,>=2.8.1 (from oslosphinx!=3.4.0,>=2.5.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 6))
+  Downloading requests-2.9.1-py2.py3-none-any.whl (501kB)
+Collecting extras (from python-subunit>=0.0.18->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 7))
+  Downloading extras-0.0.3.tar.gz
+Collecting Jinja2>=2.3 (from sphinx!=1.2.0,!=1.3b1,<1.3,>=1.1.2->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 8))
+  Downloading Jinja2-2.8-py2.py3-none-any.whl (263kB)
+Collecting docutils>=0.7 (from sphinx!=1.2.0,!=1.3b1,<1.3,>=1.1.2->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 8))
+  Downloading docutils-0.12.tar.gz (1.6MB)
+Collecting Pygments>=1.2 (from sphinx!=1.2.0,!=1.3b1,<1.3,>=1.1.2->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 8))
+  Downloading Pygments-2.1.3-py2.py3-none-any.whl (755kB)
+Collecting python-mimeparse (from testtools>=1.4.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 11))
+  Downloading python-mimeparse-1.5.1.tar.gz
+Collecting unittest2>=1.0.0 (from testtools>=1.4.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 11))
+  Downloading unittest2-1.1.0-py2.py3-none-any.whl (96kB)
+Collecting traceback2 (from testtools>=1.4.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 11))
+  Downloading traceback2-1.4.0-py2.py3-none-any.whl
+Collecting wrapt>=1.7.0 (from debtcollector>=1.2.0->oslotest>=1.10.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 5))
+  Downloading wrapt-1.10.8.tar.gz
+Collecting funcsigs>=0.4 (from debtcollector>=1.2.0->oslotest>=1.10.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 5))
+  Downloading funcsigs-1.0.1-py2.py3-none-any.whl
+Collecting keystoneauth1>=2.1.0 (from os-client-config>=1.13.1->oslotest>=1.10.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 5))
+  Downloading keystoneauth1-2.6.0-py2.py3-none-any.whl (199kB)
+Collecting requestsexceptions>=1.1.1 (from os-client-config>=1.13.1->oslotest>=1.10.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 5))
+  Downloading requestsexceptions-1.1.3-py2.py3-none-any.whl
+Collecting appdirs>=1.3.0 (from os-client-config>=1.13.1->oslotest>=1.10.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 5))
+  Downloading appdirs-1.4.0-py2.py3-none-any.whl
+Collecting MarkupSafe (from Jinja2>=2.3->sphinx!=1.2.0,!=1.3b1,<1.3,>=1.1.2->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 8))
+  Downloading MarkupSafe-0.23.tar.gz
+Collecting argparse (from unittest2>=1.0.0->testtools>=1.4.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 11))
+  Downloading argparse-1.4.0-py2.py3-none-any.whl
+Collecting linecache2 (from traceback2->testtools>=1.4.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 11))
+  Downloading linecache2-1.0.0-py2.py3-none-any.whl
+Collecting iso8601>=0.1.9 (from keystoneauth1>=2.1.0->os-client-config>=1.13.1->oslotest>=1.10.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 5))
+  Downloading iso8601-0.1.11-py2.py3-none-any.whl
+Collecting positional>=1.0.1 (from keystoneauth1>=2.1.0->os-client-config>=1.13.1->oslotest>=1.10.0->-r /home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt (line 5))
+  Downloading positional-1.1.0.tar.gz
+Building wheels for collected packages: PyYAML, coverage, discover, testrepository, cmd2, PrettyTable, unicodecsv, mccabe, flake8, extras, docutils, python-mimeparse, wrapt, MarkupSafe, positional
+  Running setup.py bdist_wheel for PyYAML
+  Stored in directory: /root/.cache/pip/wheels/4a/bf/14/d79994d19a59d4f73efdafb8682961f582d45ed6b459420346
+  Running setup.py bdist_wheel for coverage
+  Stored in directory: /root/.cache/pip/wheels/66/32/43/e100f8ea009874cbfbb54c95e06425e89af0bde2a61560a886
+  Running setup.py bdist_wheel for discover
+  Stored in directory: /root/.cache/pip/wheels/d1/a5/b5/93d3609481a21cd82c340feca74fc3a485136c53b671e487aa
+  Running setup.py bdist_wheel for testrepository
+  Stored in directory: /root/.cache/pip/wheels/24/69/16/7ebd1d6ca5343cb465b59e40cf15c1a3d24db4d0e925c96078
+  Running setup.py bdist_wheel for cmd2
+  Stored in directory: /root/.cache/pip/wheels/2a/9b/0e/7dd12e86538385e96dbd40c0df86053a631b949ed37a15f2d4
+  Running setup.py bdist_wheel for PrettyTable
+  Stored in directory: /root/.cache/pip/wheels/b6/90/7b/1c22b89217d0eba6d5f406e562365ebee804f0d4595b2bdbcd
+  Running setup.py bdist_wheel for unicodecsv
+  Stored in directory: /root/.cache/pip/wheels/97/e2/16/219fa93b83edaff912b6805cfa19d0597e21f8d353f3e2d22f
+  Running setup.py bdist_wheel for mccabe
+  Stored in directory: /root/.cache/pip/wheels/9d/d5/0e/f0c284385c804a432dc3dd6470a0ffee123bba391de1df29dd
+  Running setup.py bdist_wheel for flake8
+  Stored in directory: /root/.cache/pip/wheels/89/ac/a3/d002fddf14980f6e735e6c2d39ef91ab7e0d70a615e6641f0b
+  Running setup.py bdist_wheel for extras
+  Stored in directory: /root/.cache/pip/wheels/8d/65/7c/1dc37e3a785402acb6083f850a9908b0e57f95adbff5a05e94
+  Running setup.py bdist_wheel for docutils
+  Stored in directory: /root/.cache/pip/wheels/db/de/bd/b99b1e12d321fbc950766c58894c6576b1a73ae3131b29a151
+  Running setup.py bdist_wheel for python-mimeparse
+  Stored in directory: /root/.cache/pip/wheels/b2/6c/da/e5c374909c73e5407c3bee7c6c36605ed16e0140acb6dbdff2
+  Running setup.py bdist_wheel for wrapt
+  Stored in directory: /root/.cache/pip/wheels/19/8a/01/20cf74c3f38d49ef8e9b9aa7ffd38cefff79bad9f6f2c651f0
+  Running setup.py bdist_wheel for MarkupSafe
+  Stored in directory: /root/.cache/pip/wheels/a3/fa/dc/0198eed9ad95489b8a4f45d14dd5d2aee3f8984e46862c5748
+  Running setup.py bdist_wheel for positional
+  Stored in directory: /root/.cache/pip/wheels/0f/2f/ff/5e6ed2bcfb46b28863411979218329daee9fbd7cddd9ffa3a8
+Successfully built PyYAML coverage discover testrepository cmd2 PrettyTable unicodecsv mccabe flake8 extras docutils python-mimeparse wrapt MarkupSafe positional
+Installing collected packages: pbr, pytz, Babel, pyparsing, cmd2, six, stevedore, PrettyTable, unicodecsv, PyYAML, cliff, python-dateutil, mccabe, pep8, pyflakes, flake8, hacking, coverage, discover, extras, python-mimeparse, linecache2, traceback2, argparse, unittest2, testtools, fixtures, python-subunit, testrepository, wrapt, funcsigs, debtcollector, mox3, iso8601, requests, positional, keystoneauth1, requestsexceptions, appdirs, os-client-config, mock, testscenarios, oslotest, oslosphinx, MarkupSafe, Jinja2, docutils, Pygments, sphinx
+Successfully installed Babel-2.3.4 Jinja2-2.8 MarkupSafe-0.23 PrettyTable-0.7.2 PyYAML-3.11 Pygments-2.1.3 appdirs-1.4.0 argparse-1.4.0 cliff-2.0.0 cmd2-0.6.8 coverage-4.0.3 debtcollector-1.3.0 discover-0.4.0 docutils-0.12 extras-0.0.3 fixtures-2.0.0 flake8-2.2.4 funcsigs-1.0.1 hacking-0.10.2 iso8601-0.1.11 keystoneauth1-2.6.0 linecache2-1.0.0 mccabe-0.2.1 mock-2.0.0 mox3-0.14.0 os-client-config-1.17.0 oslosphinx-4.3.0 oslotest-2.4.0 pbr-1.9.1 pep8-1.5.7 positional-1.1.0 pyflakes-0.8.1 pyparsing-2.1.1 python-dateutil-2.5.3 python-mimeparse-1.5.1 python-subunit-1.2.0 pytz-2016.4 requests-2.9.1 requestsexceptions-1.1.3 six-1.10.0 sphinx-1.2.3 stevedore-1.12.0 testrepository-0.0.20 testscenarios-0.5.0 testtools-2.1.0 traceback2-1.4.0 unicodecsv-0.14.1 unittest2-1.1.0 wrapt-1.10.8
+/home/shangzx/opnfv/parser/tosca2heat/tosca-parser/.tox/py27/local/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/util/ssl_.py:90: InsecurePlatformWarning: A true SSLContext object is not available. This prevents urllib3 from configuring SSL appropriately and may cause certain SSL connections to fail. For more information, see https://urllib3.readthedocs.org/en/latest/security.html#insecureplatformwarning.
+  InsecurePlatformWarning
+You are using pip version 7.1.2, however version 8.1.1 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.

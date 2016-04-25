@@ -1,0 +1,4 @@
+00000000000000000000000000000000 /usr/bin/python2.7
+2.1.1 0 1
+00000000000000000000000000000000 -r/home/shangzx/opnfv/parser/tosca2heat/tosca-parser/requirements.txt
+00000000000000000000000000000000 -r/home/shangzx/opnfv/parser/tosca2heat/tosca-parser/test-requirements.txt

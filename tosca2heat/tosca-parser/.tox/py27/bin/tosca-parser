@@ -1,0 +1,10 @@
+#!/home/shangzx/opnfv/parser/tosca2heat/tosca-parser/.tox/py27/bin/python2.7
+# PBR Generated from u'console_scripts'
+
+import sys
+
+from toscaparser.shell import main
+
+
+if __name__ == "__main__":
+    sys.exit(main())
